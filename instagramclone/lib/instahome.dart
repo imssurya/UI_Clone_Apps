@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:instagramclone/instabody.dart';
 
 class InstaHome extends StatelessWidget {
   final topBar = AppBar(
@@ -13,7 +14,7 @@ class InstaHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: topBar,
-      body: Container(),
+      body: InstaBody(),
       bottomNavigationBar: Container(
         color: Colors.white,
         height: 50.0,
